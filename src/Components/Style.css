@@ -1,0 +1,67 @@
+/* Global Navbar Styles */
+.navbar {
+    background-color: #6a0dad; /* Deep Purple Background */
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-item {
+    color: #ffffff !important; /* White Text */
+    font-weight: bold;
+  }
+  
+  .navbar-item:hover {
+    background-color: #5a0caf; /* Slightly Darker Purple on Hover */
+  }
+  
+  .navbar-link {
+    color: #ffffff !important;
+  }
+  
+  .navbar-link:hover {
+    color: #f0e6ff !important; /* Light Purple Hover */
+  }
+  
+  /* Dropdown Menu */
+  .navbar-dropdown {
+    background-color: #5a0caf; /* Dropdown Background */
+  }
+  
+  .navbar-dropdown .navbar-item {
+    color: #ffffff !important;
+  }
+  
+  .navbar-dropdown .navbar-item:hover {
+    background-color: #4a0898; /* Darker Purple on Hover */
+  }
+  
+  /* Buttons */
+  .button.is-primary {
+    background-color: #9c27b0; /* Bright Purple */
+    border-color: #8e24aa;
+    color: #fff;
+  }
+  
+  .button.is-primary:hover {
+    background-color: #7b1fa2; /* Darker Purple on Hover */
+  }
+  
+  .button.is-light {
+    background-color: #f3e5f5; /* Light Purple Button */
+    color: #6a0dad;
+  }
+  
+  .button.is-light:hover {
+    background-color: #e1bee7; /* Slightly Darker Light Purple */
+  }
+  
+  /* Navbar Brand Text */
+  .navbar-brand .navbar-item strong {
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+
+  .footer{
+    position: relative;
+    top: 100vh;
+    width: 100%;
+  }
